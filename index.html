@@ -96,9 +96,10 @@
         </section>
     </header>
 
-    <main class="container mx-auto p-3 lg:px-36 border border-red-600">
+    <main class="p-3 border border-red-600">
         <!-- about us section -->
-        <section class="space-y-5 lg:my-16 lg:flex items-center relative border border-slate-500">
+        <section
+            class="container mx-auto lg:px-36 space-y-5 lg:my-16 lg:flex items-center relative border border-slate-500">
             <!-- text container -->
             <div class="space-y-3 max-md:text-center">
                 <p><i class="fa-solid fa-arrow-right"></i> About Us</p>
@@ -145,7 +146,8 @@
         </section>
 
         <!-- review section -->
-        <section class="lg:my-16 border border-slate-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <section
+            class="container mx-auto lg:px-36 lg:my-16 border border-slate-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
             <!-- card 1 -->
             <div class="text-center p-4 m-4 space-y-2">
@@ -178,7 +180,7 @@
         </section>
 
         <!-- works section -->
-        <section class="my-3 p-3 lg:my-16 border border-slate-500">
+        <section class="container mx-auto lg:px-36 my-3 p-3 lg:my-16 border border-slate-500">
             <!-- text container -->
             <div class="space-y-3 text-center">
                 <p><i class="fa-solid fa-arrow-right"></i> How we works</p>
@@ -222,7 +224,7 @@
         </section>
 
         <!-- portfolio section -->
-        <section class="my-3 p-3 lg:my-16">
+        <section class="container mx-auto lg:px-36 my-3 p-3 lg:my-16">
             <!-- text container -->
             <div class="space-y-3 text-center">
                 <!-- <p><i class="fa-solid fa-arrow-right"></i> How we works</p> -->
@@ -284,7 +286,7 @@
         </section>
 
         <!-- articles section -->
-        <section class="my-3 p-3 lg:my-16 space-y-5">
+        <section class="container mx-auto lg:px-36 my-3 p-3 lg:my-16 space-y-5">
             <!-- text container -->
             <div class="space-y-3 text-center">
                 <button class="btn bg-[#ABEF5F33] rounded-full text-lg"><i class="fa-solid fa-arrow-right"></i> Rinterio
@@ -383,9 +385,39 @@
             </div>
         </section>
 
+        <!-- let's connect section -->
+        <section class="lg:my-16 relative">
+            <div class="absolute inset-0 bg-[url('./assets/bg.jpg')] bg-cover bg-center opacity-60"></div>
+
+            <div class="relative z-10 container mx-auto lg:px-36 my-3 p-3">
+                <!-- Text container -->
+                <div class="space-y-3 text-center">
+                    <button class="btn bg-[#ABEF5F33] rounded-full text-lg"><i class="fa-solid fa-arrow-right"></i>
+                        Let's Connect</button>
+                    <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold">Let's Discuss Next Project</h2>
+                    <p class="text-gray-500 lg:w-2/3 mx-auto">The barn house captivates with its blend of rustic charm
+                        and modern featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+                <!-- Form container -->
+                <form action="#" class="mt-5 p-3 grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <input type="text" name="" id="" placeholder="First Name*" class="h-10 rounded-xl px-5">
+                    <input type="text" name="" id="" placeholder="Last Name*" class="h-10 rounded-xl px-5">
+                    <input type="number" name="" id="" placeholder="Phone Number*" class="h-10 rounded-xl px-5">
+                    <input type="email" name="" id="" placeholder="Email*" class="h-10 rounded-xl px-5">
+                    <textarea name="Message" id="" placeholder="Write your message here"
+                        class="md:col-span-2 rounded-xl p-5" rows="10"></textarea>
+                    <a class="btn bg-color-primary rounded-full text-lg font-bold md:col-span-2">Send Mail <i
+                            class="fa-solid fa-arrow-right text-white bg-color-secondary w-7 h-7 rounded-full flex justify-center items-center -rotate-45 text-lg"></i></a>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <footer></footer>
+    <footer class="bg-[#1C1C1C] text-white p-5 lg:p-36">
+
+    </footer>
 </body>
 
 </html>
